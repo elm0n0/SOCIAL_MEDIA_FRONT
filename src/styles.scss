@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/scss/bootstrap';
+
+// Colores principales
+:root {
+  --color-primario: #F16D48;
+  --color-secundario: #35F97B;
+  --color-terciario: #49B2F5;
+
+  // Escala de grises
+  --color-blanco: #FFFFFF;
+  --color-gris-claro: #F5F5F5;
+  --color-gris-medio: #CCCCCC;
+  --color-gris-oscuro: #888888;
+  --color-negro: #000000;
+}

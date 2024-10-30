@@ -1,0 +1,58 @@
+// Contenedor principal
+.full-height {
+  min-height: 100vh;
+}
+
+// Cabecera
+.home-header {
+  background-color: var(--color-primario);
+  color: var(--color-gris-claro);
+}
+
+// Contenido principal
+.home-content {
+  flex: 1;
+  text-align: center;
+  background-color: var(--color-gris-claro);
+
+  .left-content {
+    flex: 1;
+    padding: 1rem;
+    border-right: 2px solid var(--color-primario);
+    min-width: 100px;
+    max-width: 500px;
+  }
+
+  .right-content {
+    flex: 1;
+    padding: 1rem;
+    min-width: 100px;
+    max-width: 500px;
+
+    form {
+      align-items: center;
+    }
+
+
+    .btn-accent {
+      background-color: var(--color-terciario);
+      color: var(--color-gris-claro);
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 0.5rem;
+      &:hover {
+        background-color: var(--color-primario);
+      }
+    }
+  }
+}
+
+// Pie de página
+.home-footer {
+  background-color: var(--color-gris-medio);
+  color: var(--color-negro);
+  padding: 1rem;
+  text-align: center;
+}

@@ -1,5 +1,12 @@
 <header class="d-flex flex-row justify-content-between home-header">
-  <p>logo</p>
-  <h1>Bienvenido a Social Media</h1>
-  <p>login</p>
+  <div class="d-flex flex-row">
+    <p class="m-3">{{ "home.header.logo" | translate }}</p>
+  </div>
+  <div class="d-flex flex-row">
+    <h1>{{ "home.header.title" | translate }}</h1>
+  </div>
+  <div class="d-flex flex-row">
+    <img (click)="toggleLanguage()" class="language-ico" [src]="'assets/images/i18n-icons/'+ currentIcon.src" [alt]="currentIcon.alt"/>
+    <p class="m-3">{{ "home.header.login" | translate }}</p>
+  </div>
 </header>

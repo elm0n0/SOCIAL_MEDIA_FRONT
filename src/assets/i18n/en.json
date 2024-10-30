@@ -1,0 +1,17 @@
+{
+  "home": {
+    "header": {
+      "logo": "logo",
+      "title": "Welcome to Social Media",
+      "login": "login"
+    },
+    "main": {
+      "form": {
+        "input-name": "Enter your username",
+        "input-passwd": "Enter your password",
+        "btn-iniciar-session": "Login",
+        "btn-register": "SignUp"
+      }
+    }
+  }
+}

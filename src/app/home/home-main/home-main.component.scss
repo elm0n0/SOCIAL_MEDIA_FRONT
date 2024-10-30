@@ -1,0 +1,13 @@
+.home-content {
+  background-color: var(--color-gris-claro);
+
+  .left-content {
+    border-right: 2px solid var(--color-primario);
+    width: 450px;
+    height: 100%;
+  }
+
+  .right-content {
+    width: 450px;
+  }
+}

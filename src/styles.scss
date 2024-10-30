@@ -13,3 +13,16 @@
   --color-gris-oscuro: #888888;
   --color-negro: #000000;
 }
+
+.btn-primary {
+  background-color: var(--color-primario);
+  color: var(--color-gris-claro);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 0.5rem;
+  &:hover {
+    background-color: var(--color-terciario);
+  }
+}

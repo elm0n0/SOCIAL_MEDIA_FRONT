@@ -1,0 +1,17 @@
+<ngb-carousel>
+  @for (carouselSlide of carouselSlides; track $index) {
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        class="size"
+        [src]="carouselSlide.imageUrl"
+        alt="carouselSlide.altText"
+      />
+    </div>
+    <div class="carousel-caption">
+      <h3>{{ carouselSlide.title }}</h3>
+      <p>{{ carouselSlide.description }}</p>
+    </div>
+  </ng-template>
+  }
+</ngb-carousel>
